@@ -1,0 +1,1 @@
+Hakkımda kısa bilgi paylaşımı.
