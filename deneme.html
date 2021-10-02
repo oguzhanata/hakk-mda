@@ -1,12 +1,132 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
+<h1>HTML</h1>
+<p>
+    Lorem <strong>dolor sit</strong>  amet <em>consectetur.</em> 
+    <i> <a href="#">adipiscing elit.</a> </i>
+
+</p>
+
+<!-- span etiketi inline blok icerisine alarak sadece o yapida degisiklikler yapmamiza olanak saglar.-->
+
+<p>      
+    Lorem ipsum <span style="color:red">dolor sit, amet consectetur</span> dolor sit, amet consectetur adipisicing.
+</p>
+
+<p>
+    Lorem ipsum dolor sit amet,
+    <br> <!--yaziyi alt satira gecirir.-->
+    consectetur adipisicing.
+
+</p>
+
+<hr> <!--uzun cizgi cekmeyi saglar.-->
+
+<div>  <!--Blok olusturmamizi saglar. Bir etkisi yok. Kolaylik saglamak icin-->
+    <h2>Linkler İle Calismak</h2>
+
+    <!-- baska bir web sayfasina git
+        blank = linki yeni sekmede acmaya yarar.
+    -->
+
+    <ul>
+        <li>
+            <a href="https://Kodluyoruz.org" target="_blank">
+                Kodluyoruz Sayfasina gidilecek
+            </a>
+        </li>
+        <li>
+            <!---Ayni site icerisinde Baska sayfaya gitmek-->
+            <a href="iletisim.html">
+                iletisim sayfasina git.
+            </a>
+        </li>
+        <li>
+            <a href="#footer">
+                En alt kisima git
+            </a>
+        </li>
+        <li>
+            <a href="mailto:oguzhanata521@gmail.com">
+                kodluyorurz'a mail at
+            </a>
+        </li>
+        <li>
+            <a href="tel:05367210503">
+                Telefon et
+            </a>
+        </li>
+        <li>
+            <a href="https://picsum.photos/" target="_blank">
+                <img width="250" height="250" src="images/1.jpg" alt="doga">
+            </a>
+        </li>
+    </ul>
+
+
+</div>
+
+
+
+
+<p>Lorem ipsum dolor sit.</p>
+
+
+<h2>Gorsellerle Calismak</h2>
+
+<!--img-->
+
+<img width="250" height="250" src="images/1.jpg" alt="doga">
+<img src="https://picsum.photos/200/300" alt="Picsum">
+<img src="	https://assets.ubuntu.com/v1/9d7268f4-kuberneters-favicon.png" alt="Ubuntu Gorseli">
+
+
+<h2>Emmet / Zen Coding</h2>
+<!--
+    etiket isimlerini direk verebiliyoruz.
+    + kardes oge
+    > icinde oge
+    ^ yukari cik ve oge olustur
+    * carp -> p*3
+    lorem4 -> 4 kelimelik lorem uret
+    . -> class
+    # -> id
+-->
+
+<!--h1+p+p+h2+p+p+h3 -->
+<!-- ul>li*3-->
+
+<!--ul>li>p*3^h3^p-->
+
+<!--p>lorem3-->
+
+<!--ul>li*3>lorem1^^p*2>lorem4^h3>lorem1-->
+
+<!--h3.class-->
+<h3 class="deneme">Lorem.</h3>
+
+<!--h3#id-->
+<h3 id="idlossun">Lorem.</h3>
+
+<!--h3.deneme#idolussun>lorem1-->
+<h3 class="deneme" id="idolussun">Lorem.</h3>
+
+<!--ul>li.tepki-->
+<ul>
+    <li class="tepki"></li>
+</ul>
+
+<!--ul>.text-red*3-->
+<ul>
+    <li class="text-red"></li>
+    <li class="text-red"></li>
+    <li class="text-red"></li>
+</ul>
+
+
+<!--.tepki-->
+<div class="tepki"></div>
+
+<!--ayni sayfa icinde bir yere gitmek ID -> bilgisine git-->
+
+<h2 id="footer">en alt kisim</h2>
+
+<p>Lorem, ipsum dolor.</p>
